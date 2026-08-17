@@ -1,0 +1,168 @@
+# ============================================================
+# Gradle
+# ============================================================
+
+.gradle/
+build/
+*/build/
+
+# Keep the Gradle wrapper JAR
+!gradle/wrapper/gradle-wrapper.jar
+
+# Don't ignore build directories inside source trees
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Kotlin Gradle plugin / Kotlin compiler
+.kotlin/
+
+
+# ============================================================
+# Gradle Wrapper
+# ============================================================
+
+# Generated wrapper files are tracked
+!gradlew
+!gradlew.bat
+!gradle/wrapper/gradle-wrapper.properties
+!gradle/wrapper/gradle-wrapper.jar
+
+
+# ============================================================
+# IntelliJ IDEA / Android Studio
+# ============================================================
+
+.idea/
+
+*.iml
+*.iws
+*.ipr
+
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+
+# ============================================================
+# Eclipse
+# ============================================================
+
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+
+# ============================================================
+# NetBeans
+# ============================================================
+
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+
+# ============================================================
+# VS Code
+# ============================================================
+
+.vscode/
+
+
+# ============================================================
+# Java
+# ============================================================
+
+# Compiled Java classes
+*.class
+
+# Java archives
+*.jar
+*.war
+*.ear
+
+# Exception: keep the Gradle wrapper JAR
+!gradle/wrapper/gradle-wrapper.jar
+
+
+# ============================================================
+# Runtime / Application Data
+# ============================================================
+
+# Logs
+*.log
+logs/
+
+# PID files
+*.pid
+*.pid.lock
+
+# Runtime dumps
+*.hprof
+
+# Temporary files
+*.tmp
+*.temp
+
+
+# ============================================================
+# Configuration / Secrets
+# ============================================================
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
+
+# Local configuration
+config.local.*
+application-local.*
+
+# Certificates / private keys
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+
+# ============================================================
+# OS Generated Files
+# ============================================================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+
+# ============================================================
+# Editor Temporary Files
+# ============================================================
+
+*.swp
+*.swo
+*.swn
+
+# Vim
+[._]*.s[a-v][a-z]
+
+# Backup files
+*.bak
+*.orig
