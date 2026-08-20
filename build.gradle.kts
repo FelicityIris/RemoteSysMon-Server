@@ -12,6 +12,7 @@ repositories {
 
 dependencies {
     implementation("org.java-websocket:Java-WebSocket:1.6.0")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.20.0")
 
     testImplementation(platform("org.junit:junit-bom:6.0.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
